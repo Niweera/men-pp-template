@@ -37,6 +37,15 @@ MongoDB, Express, NodeJS template with Passport authentication.
 };
   ```
   
+  # API endpoints
+  
+  | Method | Endpoint       | Description                                                | Examples                           |
+| :----- | :-------  | :--------------------------------------------------------- | :--------------------------------- |
+| `GET`  | `/`      |   Welcome message | [`http:localhost:8080/`](http:localhost:8080/) |
+| `GET`  | `/usernames`      |   Get all usernames (needs authentication) | [`http:localhost:8080//usernames`](http:localhost:8080/usernames) |
+| `POST`  | `/sign-up`      |   Sign up | [`http:localhost:8080//sign-up`](http:localhost:8080/sign-up) <br> Body parameters: <br> ```{"username" : "Niweera", "password" : "secret"}``` |
+| `POST`  | `/sign-in`      |   Sign in | [`http:localhost:8080//sign-in`](http:localhost:8080/sign-in) <br> Body parameters: <br> ```{"username" : "Niweera", "password" : "secret"}``` |
+  
   # Resources:
   
   1. [PM2 Docs](https://pm2.keymetrics.io/docs/usage/quick-start/)
