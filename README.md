@@ -1,3 +1,6 @@
+![Open Source Love](https://img.shields.io/badge/Open%20Source-%E2%9D%A4-red.svg)
+![GitHub](https://img.shields.io/github/license/Niweera/men-pp-template.svg)
+
 # men-pp-template
 
 MongoDB, Express, NodeJS template with Passport authentication.
@@ -65,3 +68,5 @@ module.exports = {
 3. [Passport Docs](http://www.passportjs.org/docs/downloads/html/)
 4. [Joi Docs](https://hapi.dev/module/joi/)
 5. [jsonwebtoken Docs](https://github.com/auth0/node-jsonwebtoken/blob/master/README.md)
+
+### PRs are welcome
